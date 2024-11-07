@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.1184077">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <PublishAssetsDirectory>${MSBuildProjectDirectory}\dist</PublishAssetsDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="tsconfig .node.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Include="tsconfig .node.json" />
+  </ItemGroup>
+</Project>
