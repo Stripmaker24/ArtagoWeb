@@ -6,10 +6,4 @@
     <ShouldRunBuildScript>false</ShouldRunBuildScript>
     <PublishAssetsDirectory>${MSBuildProjectDirectory}\dist</PublishAssetsDirectory>
   </PropertyGroup>
-  <ItemGroup>
-    <None Remove="tsconfig .node.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptConfiguration Include="tsconfig .node.json" />
-  </ItemGroup>
 </Project>
